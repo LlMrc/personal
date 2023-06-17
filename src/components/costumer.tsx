@@ -10,8 +10,12 @@ const bgStyle = {
 
 const CustomerService = () => {
   return (
-    <div className="bg-shad-color  py-10 md:px-4" data-scroll-section>
-      <div className="flex flex-col md:flex-row h-64 w-full  ">
+    <div className="bg-shad-color   py-10 md:px-4" data-scroll-section>
+      <div 
+      data-scroll
+      data-scroll-direction="vertical"
+      data-scroll-speed="-2"
+      className="flex flex-col md:flex-row h-64 w-full  ">
         <div
           className=" w-full h-full justify-end flex rounded-l-md"
           style={bgStyle}
@@ -19,8 +23,8 @@ const CustomerService = () => {
       
         </div>
 
-        <div className="w-full h-full bg-white text-gray-700  md:px-6 rounded-r-md">
-          <div className="grid grid-cols-1 items-center lg:w-3/4 w-full p-4 md:p-0">
+        <div className="w-full h-full bg-white text-gray-700  md:px-6 rounded-r-md shadow-lg shadow-slate-300">
+          <div className="grid  grid-cols-1 items-center lg:w-3/4 w-full p-4 md:p-0">
             <div className="text-lg md:py-4  flex gap-2 font-medium">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

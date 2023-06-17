@@ -1,8 +1,8 @@
-import React from 'react'
+
 
 const NotFound = () => {
   return (
-    <div>NotFound</div>
+    <div className='uppercase flex justify-center'>Page not found</div>
   )
 }
 

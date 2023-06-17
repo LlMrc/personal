@@ -8,9 +8,11 @@ import MediaCard from '../components/site'
 const HeroPage = () => {
   return (
     <>
-      <Card/>
+   
+    <Card/>
       <MediaCard/>
      <Culture/>
+
 
     </>
   )

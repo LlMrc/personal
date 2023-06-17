@@ -7,8 +7,11 @@ import Testimonial from "../components/testimonial"
 const AboutPage = () => {
   return (
     < >
-      <Souvenir/>
+    <div id="about">
+    <Souvenir/>
       <Testimonial/>
+    </div>
+     
     </>
   )
 }

@@ -5,8 +5,11 @@ import ContactForm from "../components/form"
 const ContactPage = () => {
   return (
     <>
-      <ContactForm/>
+    <div id="contact" className="bg-green-100">
+    <ContactForm/>
       <CustomerService/>
+    </div>
+      
     </>
   )
 }

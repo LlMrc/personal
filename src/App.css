@@ -30,8 +30,39 @@
       @apply duration-500 delay-500 ;
       
     }
- 
+
+  
+    .text-style {
+      @apply opacity-40 lowercase scale-x-0
+
+      
+      }
+  
+      .text-style.is-inview {
+        @apply opacity-100 scale-x-100 uppercase;
+        @apply duration-1000 delay-500 ;
+        
+      }
+   
+  
+    
+   
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .custom-shape-divider-bottom-1686527798 {
   position: absolute;
@@ -87,11 +118,15 @@
     background-position: center;
   }
 
-  
+ 
+
+
 
 
   
-  
+
+
+
 
   html.has-scroll-smooth {
     overflow: hidden; 

@@ -1,5 +1,5 @@
 import slay from "../assets/Saly..png";
-import CustomerService from "./costumer";
+
 
 
 const ContactForm = () => {

@@ -12,14 +12,21 @@ const bgStyle = {
 const LandingPage = () => {
   return (
     <div
+    id="stick"
       className=" w-full bg-fixed h-[100vh] bg-no-repeat"
       style={bgStyle}
       data-scroll-section
     >
+       
       <section className="overflow-hidden text-skin-fill font-bold h-[100vh] md:h-full bg-transparent -z-40 ">
+       
+  
         <div className="bg-gradient-to-r relative from-black h-full w-full">
-          <NavBar />
+         <NavBar />
+
+       
           <div className="grid md:w-full lg:grid-cols-2 grid-cols-1 lg:gap-4 gap-2   text-center  relative">
+         
             <div
               className=" grid md:gap-4 m-2 gap-2 px-2 lg:pt-52 pt-14  text-start z-0 md:px-10 w-4/5"
           
