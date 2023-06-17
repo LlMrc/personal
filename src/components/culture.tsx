@@ -59,13 +59,13 @@ useEffect(() => {
           {/* <Link to={""}><h6 className="underline decoration-accent text-xl py-2">learn more</h6></Link> */}
           <div className="block  md:w-36 text-center w-3/5 mx-auto md:mx-0 cursor-pointer  mt-6">
             <motion.h6 animate={animation1} className="bg-skin-secondary text-skin-accent m-2 px-2">
-             <NavLink about="_black" to={"https://www.discogs.com/search/?format_exact=Album&country_exact=Haiti"}>music</NavLink> 
+             <NavLink about="_black" to={"https://www.tripadvisor.com/SmartDeals-g1025359-Ile_a_Vache_Sud_Department_Haiti-Hotel-Deals.html"}>beach</NavLink> 
             </motion.h6>
             <motion.h6 animate={animation1} className="bg-skin-secondary text-skin-accent m-2 px-2">
             <NavLink about="_black" to={"https://www.alterpresse.org/spip.php?article15167"}>Fashion</NavLink> 
             </motion.h6>
             <motion.h6 animate={animation1} className="bg-skin-secondary text-skin-accent m-2 px-2">
-            <NavLink about="_black" to={"https://visithaiti.com/festivals-events/carnival-haiti-guide/"}>Festivale</NavLink> 
+            <NavLink about="_black" to={"https://nhhaitielrancho.com/"}>Festivale</NavLink> 
             </motion.h6>
           </div>
         </div>

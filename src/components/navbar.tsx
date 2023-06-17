@@ -18,15 +18,15 @@ const Nav = () => {
   const Menu = () => {
     return (
       <>
-        <NavLink to="#stick" about="_blank">
+        <a href="#stick" about="_blank">
           <p className=" nav-btn">Home</p>
-        </NavLink>
-        <NavLink onClick={handleOpen} to="#contact">
+        </a>
+        <a onClick={handleOpen} href="contact">
           <p className=" nav-btn">Contact</p>
-        </NavLink>
-        <NavLink onClick={handleOpen} to={"#about"}>
+        </a>
+        <a onClick={handleOpen} href={"#about"}>
           <p className=" nav-btn">About</p>
-        </NavLink>
+        </a>
       </>
     );
   };
@@ -97,18 +97,16 @@ const Nav = () => {
           }
         >
           <div className=" bg-purple-400 h-14 " />
-          <NavLink onClick={handleOpen}  to={"#stick"}>
+          <a onClick={handleOpen}  href={"#stick"}>
             <CardMenu _name="Home" />
-          </NavLink>
+          </a>
           <a onClick={handleOpen} href={"#contact"}>
             <CardMenu _name="Contact" />
           </a>
           <a onClick={handleOpen} href={"#about"}>
             <CardMenu _name="About" />
           </a>
-          <a onClick={handleOpen} href={"#content"}>
-            <CardMenu _name="tfX" />
-          </a>
+      
         </div>
       </div>
     </div>
