@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import {  useState } from "react";
+
 
 const CardMenu = ({ _name }: { _name: string }) => {
   return (
@@ -47,9 +47,7 @@ const Nav = () => {
             <Menu />
           </div>
 
-          <a href={"#content"}>
-            <p className=" btn">sht</p>
-          </a>
+     
         </div>
         {/* Mobile navbar */}
         <div className="md:hidden px-4 flex  justify-between w-full">

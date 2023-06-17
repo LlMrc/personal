@@ -1,7 +1,7 @@
-import { Link, NavLink } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 import dress from "../assets/dress.png";
 import Banner from "./banner";
-import {delay, motion, useAnimation} from 'framer-motion'
+import { motion, useAnimation} from 'framer-motion'
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 
@@ -27,7 +27,7 @@ useEffect(() => {
       animation.start({x:'-100vw', opacity:0})
   }
 
-}, [inView])
+}, [animation, inView])
 
 useEffect(() => {
   if(inView){
@@ -42,7 +42,7 @@ useEffect(() => {
       animation1.start({x:'-100vw', opacity:0})
   }
 
-}, [inView])
+}, [animation1, inView])
 
 
 

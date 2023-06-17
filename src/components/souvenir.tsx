@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+import {  useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const slide = [
   {
@@ -150,7 +151,7 @@ const Souvenir = () => {
           }}
           className="my-2 px-2 h-8 border-solid mx-2 rounded-full border-2 border-secondary "
         >
-          Humanitarianism
+         <NavLink to={"https://nphusa.org/haiti-news/"}>Humanitarianism</NavLink> 
         </motion.p>
         <motion.p
           whileHover={{
@@ -160,19 +161,21 @@ const Souvenir = () => {
           }}
           className="my-2 px-2  h-8 border-solid mx-2 rounded-full border-2 border-secondary "
         >
-          hotel 
+          <NavLink to={"https://www.tripadvisor.com/Tourism-g983381-Port_Salut_Sud_Department_Haiti-Vacations.html"}>Hotel</NavLink>
+        
         </motion.p>
         <motion.p
           whileHover={{ scaleX: 1.1, marginRight: 10 }}
           className="my-2 px-2 mx-2 border-solid h-8 rounded-full border-2 border-secondary "
         >
-          event 
+          <NavLink to={"https://www.tripadvisor.com/Hotel_Review-g1098353-d2701332-Reviews-Allamanda_Hotel-Petionville_Ouest_Department_Haiti.html"}>event</NavLink>
+       
         </motion.p>
         <motion.p
           whileHover={{ scaleX: 1.1, marginRight: 10 }}
           className="my-2 px-2 mx-2 h-8 border-solid rounded-full border-2 border-secondary "
         >
-          Discovery
+          <NavLink to={"https://www.tripadvisor.com/Attraction_Review-g1833025-d16628258-Reviews-Jardin_Botanique_des_Cayes_Haiti-Les_Cayes_Sud_Department_Haiti.html"}>Discovery</NavLink>
         </motion.p>
       </div>
       <div 

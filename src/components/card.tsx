@@ -1,5 +1,5 @@
 import indigo from "../assets/indigo.jpg";
-import { Link } from "react-router-dom";
+
 
 const bg3 = {
   backgroundImage: `url(${indigo})`,
