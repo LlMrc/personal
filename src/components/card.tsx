@@ -1,10 +1,7 @@
 import indigo from "../assets/indigo.jpg";
 
 
-const bg3 = {
-  backgroundImage: `url(${indigo})`,
-  backgroundSize: "cover",
-};
+
 
 const Card = () => {
   return (
