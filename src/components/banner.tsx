@@ -17,7 +17,7 @@ const Banner = () => {
         Discover the Authenticity and Enchanting Spices of Haiti 😍😋
       </p>
       <div className=" m-2 flex flex-col bg-slate-200 rounded md:flex-row ">
-        <section  className=" h-52 items-center flex gap-2 overflow-x-scroll container-snap md:w-3/4  p-2 justify-around">
+        <section  className=" h-52 items-center flex gap-2 overflow-x-scroll md:w-3/4  p-2 justify-around">
      
           <img
             data-scroll

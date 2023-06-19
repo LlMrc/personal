@@ -71,11 +71,11 @@ useEffect(() => {
         </div>
 
         <section className="grid grid-cols-3  mx-auto w-full   md:gap-4 h-full">
-          <div data-scroll className=" clip-image-style col-span-1   self-end ">
+          <div data-scroll className=" col-span-1  clip-image-style  self-end ">
             <h6>art</h6>
 
             <img
-              className="h-64 w-60 bg-slate-400 "
+              className="h-64 w-60 bg-slate-400  "
               src="https://i.pinimg.com/736x/8e/de/90/8ede90d7a714d24daeaaa7dde240abc1.jpg"
               alt="haitian culture"
             />

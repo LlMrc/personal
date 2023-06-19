@@ -36,11 +36,13 @@ const Card = () => {
           </div>
         </div>
       </div>
-      <div className=" relative md:h-full   h-[300px] md:w-52">
+      <div className=" relative md:h-full bg-skin-fill  h-[300px] md:w-52">
+      
         <div
           className="flex  justify-center  items-center bg-skin-fill md:pr-2 h-full w-full md:py-2 md:absolute md:h-52 md:w-52 top-10 -right-10 shadow-gray-50"
-          style={bg3}
+          
         >
+          <img className="h-full w-full" src={indigo} alt="club indigo"/>
           <div className="grid md:grid-cols-2 uppercase md:absolute -bottom-5 left-[350px] w-64 gap-4 opacity-80 md:opacity-100">
             <button className="px-4 uppercase font-semibold  rounded-sm bg-skin-secondary text-skin-accent md:bg-skin-primary py-2 shadow-md ">
               more
@@ -49,7 +51,9 @@ const Card = () => {
               demo
             </button>
           </div>
+      
         </div>
+       
       </div>
     </section>
   );

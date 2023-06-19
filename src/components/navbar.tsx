@@ -1,5 +1,4 @@
-import {  useState } from "react";
-
+import { useState } from "react";
 
 const CardMenu = ({ _name }: { _name: string }) => {
   return (
@@ -18,13 +17,13 @@ const Nav = () => {
   const Menu = () => {
     return (
       <>
-        <a href="#stick" about="_blank">
+        <a href="#stick">
           <p className=" nav-btn">Home</p>
         </a>
-        <a onClick={handleOpen} href="contact">
+        <a onClick={handleOpen} href="#">
           <p className=" nav-btn">Contact</p>
         </a>
-        <a onClick={handleOpen} href={"#about"}>
+        <a onClick={handleOpen} href={"#"}>
           <p className=" nav-btn">About</p>
         </a>
       </>
@@ -46,8 +45,6 @@ const Nav = () => {
           <div className=" flex gap-2">
             <Menu />
           </div>
-
-     
         </div>
         {/* Mobile navbar */}
         <div className="md:hidden px-4 flex  justify-between w-full">
@@ -95,7 +92,7 @@ const Nav = () => {
           }
         >
           <div className=" bg-purple-400 h-14 " />
-          <a onClick={handleOpen}  href={"#stick"}>
+          <a onClick={handleOpen} href={"#stick"}>
             <CardMenu _name="Home" />
           </a>
           <a onClick={handleOpen} href={"#contact"}>
@@ -104,7 +101,6 @@ const Nav = () => {
           <a onClick={handleOpen} href={"#about"}>
             <CardMenu _name="About" />
           </a>
-      
         </div>
       </div>
     </div>

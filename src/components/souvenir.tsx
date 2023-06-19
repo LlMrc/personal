@@ -149,9 +149,9 @@ const Souvenir = () => {
             marginRight: 10,
             textShadow: "0px 0px 8px rgb(255,255,255)",
           }}
-          className="my-2 px-2 h-8 border-solid mx-2 rounded-full border-2 border-secondary "
+          className="my-2 px-2 h-8 border-solid mx-2 rounded-full border-2 bg-skin-succes border-secondary "
         >
-         <NavLink to={"https://nphusa.org/haiti-news/"}>Humanitarianism</NavLink> 
+         <NavLink rel="noopenner" target="_blank" to={"https://nphusa.org/haiti-news/"}>Humanitarianism</NavLink> 
         </motion.p>
         <motion.p
           whileHover={{
@@ -159,23 +159,26 @@ const Souvenir = () => {
             marginRight: 10,
             textShadow: "0px 0px 8px rgb(255,255,255)",
           }}
-          className="my-2 px-2  h-8 border-solid mx-2 rounded-full border-2 border-secondary "
+          className="my-2 px-2  h-8 border-solid mx-2 rounded-full border-2 border-secondary bg-skin-succes "
         >
-          <NavLink to={"https://www.tripadvisor.com/Tourism-g983381-Port_Salut_Sud_Department_Haiti-Vacations.html"}>Hotel</NavLink>
+          <NavLink rel="noopenner" target="_blank" to={"https://www.tripadvisor.fr/Attractions-g147306-Activities-Haiti.html"}>Tourism</NavLink>
         
         </motion.p>
         <motion.p
           whileHover={{ scaleX: 1.1, marginRight: 10 }}
-          className="my-2 px-2 mx-2 border-solid h-8 rounded-full border-2 border-secondary "
+          className="my-2 px-2 mx-2 border-solid h-8 rounded-full border-2 border-secondary bg-skin-succes"
         >
-          <NavLink to={"https://www.tripadvisor.com/Hotel_Review-g1098353-d2701332-Reviews-Allamanda_Hotel-Petionville_Ouest_Department_Haiti.html"}>event</NavLink>
+          <NavLink rel="noopenner" target="_blank" to={"https://www.tripadvisor.com/Hotel_Review-g1098353-d2701332-Reviews-Allamanda_Hotel-Petionville_Ouest_Department_Haiti.html "}>Restaurant</NavLink>
        
         </motion.p>
+
         <motion.p
           whileHover={{ scaleX: 1.1, marginRight: 10 }}
-          className="my-2 px-2 mx-2 h-8 border-solid rounded-full border-2 border-secondary "
+          className="my-2 relative px-2 mx-2 h-8 bg-skin-succes border-solid rounded-full border-2 border-secondary "
         >
-          <NavLink to={"https://www.tripadvisor.com/Attraction_Review-g1833025-d16628258-Reviews-Jardin_Botanique_des_Cayes_Haiti-Les_Cayes_Sud_Department_Haiti.html"}>Discovery</NavLink>
+          
+        <NavLink rel="noopenner" target="_blank" to={"https://www.tripadvisor.com/Attraction_Review-g1833025-d16628258-Reviews-Jardin_Botanique_des_Cayes_Haiti-Les_Cayes_Sud_Department_Haiti.html"}>Discovery</NavLink>
+        
         </motion.p>
       </div>
       <div 
