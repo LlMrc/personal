@@ -135,12 +135,12 @@ const Souvenir = () => {
     setIndex(newIndex);
   };
   return (
-    <section className=" my-20   w-full rounded" data-scroll-section>
+    <section className=" my-20  p-2 w-full rounded" data-scroll-section>
         <h6 className="my-4 font-semibold text-lg">A Journey Down Memory Lane: Timeless Reminiscences</h6>
-        <div className="flexflex-col md:flex-row justify-center items-center  ">
+        <div className="flexflex-col p-2  md:flex-row justify-center items-center  ">
       <div
       
-       className="md:text-end  md:mr-4 w-full justify-center flex overflow-x-scroll container-snap md:text-lg ">
+       className="md:text-end md:mr-4 w-full justify-center flex overflow-x-scroll container-snap md:text-lg ">
     
      
         <motion.p
@@ -185,7 +185,7 @@ const Souvenir = () => {
       data-scroll
       data-scroll-direction="vertical"
       data-scroll-speed="1"
-      className="relative md:mx-auto md:h-[400px] md:w-[700px] md:p-2 md:my-8 shadow-md shadow-secondary overflow-hidden after:clear-both after:block after:content-[''] group">
+      className="relative md:mx-auto  md:h-[400px] md:w-[700px] md:p-2 md:my-8 shadow-md shadow-secondary overflow-hidden after:clear-both after:block after:content-[''] group">
         <div
           key={slide[0].id}
           className=" float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"

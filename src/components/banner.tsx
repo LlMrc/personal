@@ -12,7 +12,7 @@ import dish6 from "../assets/2.png";
 
 const Banner = () => {
   return (
-    <div data-scroll-section  className="md:my-40 text-center py-4">
+    <div data-scroll-section  className="md:my-40 my-10 text-center">
       <p className="px-4">
         Discover the Authenticity and Enchanting Spices of Haiti 😍😋
       </p>

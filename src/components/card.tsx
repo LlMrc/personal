@@ -40,7 +40,7 @@ const Card = () => {
           
         >
           <img className="h-full w-full" src={indigo} alt="club indigo"/>
-          <div className="grid md:grid-cols-2 uppercase md:absolute -bottom-5 left-[350px] w-64 gap-4 opacity-80 md:opacity-100">
+          <div className="grid md:grid-cols-2 uppercase absolute md:-bottom-5 md:left-[350px] w-64 gap-4 opacity-80 md:opacity-100">
             <button className="px-4 uppercase font-semibold  rounded-sm bg-skin-secondary text-skin-accent md:bg-skin-primary py-2 shadow-md ">
               more
             </button>

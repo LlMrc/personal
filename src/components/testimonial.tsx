@@ -7,7 +7,7 @@ import a3 from "../assets/45.jpg";
 
 const Testimonial = () => {
   return (
-    <section data-scroll-section className="bg-green-50">
+    <section data-scroll-section>
       <div className=" md:flex justify-center items-center flex-col mt-10">
         <TestimonialLeft
           avatar={a3}
