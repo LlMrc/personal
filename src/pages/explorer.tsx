@@ -1,5 +1,6 @@
 import styles from "../styles";
 import restaurent from "../assets/gridcard/restaurant.jpg";
+import carnival from "../assets/carnival.jpeg";
 
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -93,8 +94,8 @@ export default function Explorer() {
         >
           <div className="">
             <img
-              src={restaurent}
-              alt="restaurent"
+              src={carnival}
+              alt="carnival"
               className="object-contain h-full w-full rounded-md"
             />
           </div>
