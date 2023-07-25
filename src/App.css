@@ -4,7 +4,16 @@
 @tailwind utilities;
 
 
+@layer utilities{
+  .animation-delay-200 {
+    animation-delay: 2s;
+  }
 
+  .animation-delay-400 {
+    animation-delay: 4s;
+  }
+ 
+}
 
 @layer base {
 

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import bg from "../assets/bg-image.jpg";
-import indigo from "../assets/port.jpg";
-import trapical from "../assets/royal.jpg";
+import indigo from "../assets/gridcard/port.jpg";
+import trapical from "../assets/gridcard/royal.jpg";
 import logo from "../assets/logo.png";
 import NavBar from "../components/navbar";
 const bgStyle = {
@@ -11,8 +11,7 @@ const bgStyle = {
 };
 const LandingPage = () => {
   return (
-    <div
-    id="stick"
+    <section 
       className=" w-full bg-fixed h-[100vh] bg-no-repeat"
       style={bgStyle}
       data-scroll-section
@@ -28,7 +27,7 @@ const LandingPage = () => {
           <div className="grid md:w-full lg:grid-cols-2 grid-cols-1 lg:gap-4 gap-2   text-center  relative">
          
             <div
-              className=" grid md:gap-4 m-2 gap-2 px-2 lg:pt-52 pt-14  text-start z-0 md:px-10 w-4/5"
+              className=" grid md:gap-4 m-2 gap-2 px-2 lg:pt-20 pt-14 md:mx-auto  text-start z-0 md:px-10 w-4/5"
           
             >
               <motion.div
@@ -55,18 +54,18 @@ const LandingPage = () => {
                 animate={{ opacity: 1 }}
                 className="md:py-4 my-2 py-2 uppercase md:m-10  w-3/6 md:ml-24 text-center rounded-md bg-gradient-to-r from-pink-600 to-red-400 max-w-sm"
               >
-                button
+                Get Started
               </motion.div>
             </div>
 
-            <section className="  relative lg:h-4/5 block lg:flex ">
+            <section className=" md:hidden lg:relative relative lg:h-4/5 block lg:flex ">
               <div className="relative h-[400px] w-full ">
                 <div
                   data-scroll-section
                   data-scroll
                   data-scroll-direction="vertical"
-                  data-scroll-speed="-1"
-                  className="rounded-full absolute lg:bottom-20 lg:left-10 md:bottom-64 md:left-40 bottom-40 left-2   p-1  h-32 w-32 bg-slate-200 z-10"
+                  data-scroll-speed="4"
+                  className="rounded-full absolute lg:bottom-20 lg:left-10 md:bottom-64 md:left-40 bottom-40 left-2   p-1  h-32 w-32 bg-slate-200 z-0"
                 >
                   <div
                     className=" bg-slate-800 rounded-full h-full w-full bg-cover bg-center "
@@ -77,7 +76,7 @@ const LandingPage = () => {
                   data-scroll-section
                   data-scroll
                   data-scroll-direction="vertical"
-                  data-scroll-speed="1.5"
+                  data-scroll-speed="1"
                   className="rounded-full flex items-center justify-center p-1 h-40 w-40 bg-slate-200  absolute lg:bottom-14 lg:left-32  md:bottom-56 md:left-[250px] bottom-36 left-52  z-20"
                 >
                   <div
@@ -89,7 +88,7 @@ const LandingPage = () => {
                   data-scroll-section
                   data-scroll
                   data-scroll-direction="vertical"
-                  data-scroll-speed="-1"
+                  data-scroll-speed="-4"
                   className="rounded-full flex items-center justify-center  p-1 h-52 w-52 md:h-64 md:w-64 bg-slate-200  absolute lg:bottom-6 lg:left-60  md:bottom-44 md:left-[360px] bottom-32 left-20 z-10"
                 >
                   <div className=" bg-slate-800  rounded-full h-full w-full flex justify-center items-center text-center relative">
@@ -112,7 +111,12 @@ const LandingPage = () => {
           {/* curve  */}
           <div className="custom-shape-divider-bottom-1686527798">
             <div className="h-[2rem]  relative">
-              <div className="absolute text-slate-400 left-[655px] -bottom-14 h-10 w-10">
+              <div
+              data-scroll-section
+              data-scroll
+              data-scroll-direction="vertical"
+              data-scroll-speed="-4"
+               className="absolute text-slate-400 left-[662px] -bottom-10 h-10 w-10">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -128,6 +132,9 @@ const LandingPage = () => {
                   />
                 </svg>
               </div>
+
+
+            
             </div>
             <svg
               data-name="Layer 1"
@@ -140,11 +147,11 @@ const LandingPage = () => {
                 className="shape-fill"
               ></path>
             </svg>
-            {/* <div className="h-[2rem] w-full bg-skin-fill"/> */}
+          
           </div>
         </div>
       </section>
-    </div>
+    </section>
   );
 };
 

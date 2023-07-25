@@ -4,24 +4,16 @@ const bgStyle = {
   backgroundImage: `url(${customer})`,
   backgroundSize: "cover",
   backgroundPosition: "center",
-
 };
-
 
 const CustomerService = () => {
   return (
-    <div className="bg-shad-color   py-10 md:px-4" data-scroll-section>
-      <div 
-      data-scroll
-      data-scroll-direction="vertical"
-      data-scroll-speed="-2"
-      className="flex flex-col md:flex-row h-64 w-full  ">
+    <section className="bg-shad-color   py-10 md:px-4" data-scroll-section>
+      <div className="flex flex-col md:flex-row h-64 w-full  ">
         <div
           className=" w-full h-full justify-end flex rounded-l-md"
           style={bgStyle}
-        >
-      
-        </div>
+        ></div>
 
         <div className="w-full h-full bg-white text-gray-700  md:px-6 rounded-r-md shadow-lg shadow-slate-300">
           <div className="grid  grid-cols-1 items-center lg:w-3/4 w-full p-4 md:p-0">
@@ -42,7 +34,7 @@ const CustomerService = () => {
               </svg>
               Assistance 24/24 7/7
             </div>
-            <div >
+            <div>
               We take pride in our reputation for customer service. Positive
               feedback from our satisfied clients speaks to our commitment to
               providing superior service. Join us and discover why our clients
@@ -51,7 +43,7 @@ const CustomerService = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

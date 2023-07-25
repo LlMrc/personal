@@ -1,13 +1,19 @@
-import indigo from "../assets/indigo.jpg";
+import indigo from "../assets/gridcard/indigo.jpg";
+import styles from '../styles';
+import { motion } from 'framer-motion';
+import { staggerContainer,  } from '../utils/motion';
 
 
 
 
 const Card = () => {
   return (
-    <section
-
-      className="flex flex-col md:flex-row-reverse md:p-6 relative  pt-14 md:pt-32 justify-end"
+    <motion.section
+    variants={staggerContainer}
+    whileInView="show"
+    initial="hidden"
+    viewport={{ once: false, amount: 0.25 }}
+      className={` ${styles.interWidth} flex flex-col md:flex-row-reverse md:p-6 relative mx-auto py-14 md:py-24 justify-end`}
       data-scroll-section
     >
       <div className="  space-y-6 theme-primary relative   md:w-[800px]">
@@ -41,7 +47,7 @@ const Card = () => {
         >
           <img className="h-full w-full" src={indigo} alt="club indigo"/>
           <div className="grid md:grid-cols-2 uppercase absolute md:-bottom-5 md:left-[350px] w-64 gap-4 opacity-80 md:opacity-100">
-            <button className="px-4 uppercase font-semibold  rounded-sm bg-skin-secondary text-skin-accent md:bg-skin-primary py-2 shadow-md ">
+            <button type="submit" className="px-4 uppercase font-semibold  rounded-sm bg-skin-secondary text-skin-accent md:bg-skin-primary py-2 shadow-md ">
               more
             </button>
             <button className="px-4 uppercase font-semibold rounded-sm bg-skin-fill text-skin-secondary py-2 shadow-md ">
@@ -52,7 +58,7 @@ const Card = () => {
         </div>
        
       </div>
-    </section>
+    </motion.section>
   );
 };
 

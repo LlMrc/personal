@@ -2,8 +2,9 @@ import logo from '../assets/logo.png'
 
 const FooterPage = () => {
   return (
-    <div id='footer' className="min-h-fit bg-skin-secondary text-slate-300" data-scroll-section>
-      <footer className="text-gray-600 body-font">
+      <footer 
+      data-scroll-section
+       className="text-gray-600 body-font  bg-skin-secondary h-[24rem]">
         <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
            <img className='h-24 w-20' src={logo} alt="mashpa logo"/>
@@ -79,7 +80,7 @@ const FooterPage = () => {
           </span>
         </div>
       </footer>
-    </div>
+
   );
 };
 
