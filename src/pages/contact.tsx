@@ -1,4 +1,4 @@
-import CustomerService from "../components/costumer"
+
 import slay from "../assets/Saly..png";
 
 
