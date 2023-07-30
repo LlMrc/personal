@@ -4,7 +4,7 @@ const FooterPage = () => {
   return (
       <footer 
       data-scroll-section
-       className="text-gray-600 body-font  bg-skin-secondary h-[24rem]">
+       className="text-gray-600 body-font  bg-skin-secondary h-[16rem]">
         <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
            <img className='h-24 w-20' src={logo} alt="mashpa logo"/>

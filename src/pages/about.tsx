@@ -11,8 +11,8 @@ const About = () => {
       whileInView="show"
       initial="hidden"
       viewport={{ once: false, amount: 0.25 }}
-      className={`relative bg-skin-succes flex flex-col lg:gap-10
-       gap-4 md:pt-24 mx-auto rounded-sm h-[20rem]
+      className={`relative bg-skin-succes flex flex-col lg:gap-10 
+       gap-4 mx-auto rounded-sm h-[20rem]
        overflow-hidden text-white text-xl ${styles.paddings}`}
       data-scroll-section
     >
@@ -23,14 +23,14 @@ const About = () => {
       />
       <div className="inset-0 absolute  bg-slate-600 bg-opacity-70" />
       <TypingText
-        title="Lorem ipsum dolor sit amet consectetur"
+        title="Embrace the Magic of the Caribbean's Hidden Gem!"
         textStyles="text-white text-[18px] z-10"
       />
-      <h4 className="lg:text-[40px] font-bold z-10 ">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum deleniti
-        velit
+      <h4 className="lg:text-[40px] font-bold z-10 leading-10 ">
+        Create lasting memories as you explore the vibrant markets, and
+        breathtaking natural wonders of Haiti
       </h4>
-      <button className="rounded-full px-4 py-2 z-10 bg-skin-primary text-skin-accent self-start hover:scale-110  transition-all">
+      <button className=" px-4 py-2 z-10 text-skin-accent border self-start hover:scale-110  transition-all">
         Learn more
       </button>
     </motion.section>
