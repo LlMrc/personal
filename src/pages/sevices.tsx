@@ -15,7 +15,7 @@ const Sevices = () => {
             <h4 className='text-2xl lg:text-4xl'>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4>
             
         </div>
-        <div className='flex  flex-col md:flex-row gap-4 m-4'>
+        <div className='flex  flex-wrap md:flex-row gap-4 m-4'>
 {svgLogo.map((item)=>(
     <div key={item.id} className='flex flex-col items-center gap-2  p-4 max-h-[14rem] w-[14rem]'>
         <div className='rounded-full bg-gray-400 h-16 w-16'>

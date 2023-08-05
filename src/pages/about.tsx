@@ -12,7 +12,7 @@ const About = () => {
       initial="hidden"
       viewport={{ once: false, amount: 0.25 }}
       className={`relative bg-skin-succes flex flex-col lg:gap-10 
-       gap-4 mx-auto rounded-sm h-[20rem]
+       gap-2 md:gap-4 mx-auto rounded-sm h-[20rem]
        overflow-hidden text-white text-xl ${styles.paddings}`}
       data-scroll-section
     >
@@ -26,7 +26,7 @@ const About = () => {
         title="Embrace the Magic of the Caribbean's Hidden Gem!"
         textStyles="text-white text-[18px] z-10"
       />
-      <h4 className="lg:text-[40px] font-bold z-10 leading-10 ">
+      <h4 className="lg:text-[40px] font-bold z-10 md:leading-10 leading-8 ">
         Create lasting memories as you explore the vibrant markets, and
         breathtaking natural wonders of Haiti
       </h4>

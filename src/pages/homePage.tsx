@@ -30,12 +30,15 @@ const HomePage = () => {
           <Culture />
           <Explorer />
           <About />
-          <CallToAction/>
+          <CallToAction />
           <WhatNew />
-           
           <Sevices />
-          <Testimonial />
-          <FooterPage />
+          <Testimonial /> 
+           <FooterPage /> 
+           <FooterPage />
+        
+  
+           
         </main>
       </LocomotiveScrollProvider>
     </>

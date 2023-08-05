@@ -16,7 +16,7 @@ const Card = () => {
       className={` ${styles.interWidth} flex flex-col md:flex-row-reverse md:p-6 relative mx-auto py-14 md:py-24 justify-end`}
       data-scroll-section
     >
-      <div className="  space-y-6 theme-primary relative   md:w-[800px]">
+      <div className="space-y-6  relative   md:w-[800px]">
         <div className="relative bg-skin-primary  md:max-w-4xl md:h-[300px]  h-[300px] mx-auto overflow-hidden  md:rounded-xl">
           <img
             className="inset-0 h-full w-full  objecy-cover  opacity-30"
@@ -40,12 +40,12 @@ const Card = () => {
         </div>
       </div>
       <div className=" relative md:h-full bg-skin-fill  h-[300px] md:w-52">
+     
       
         <div
-          className="flex  justify-center  items-center bg-skin-fill md:pr-2 h-full w-full md:py-2 md:absolute md:h-52 md:w-52 top-10 -right-10 shadow-gray-50"
-          
-        >
-          <img className="h-full w-full" src={indigo} alt="club indigo"/>
+          className="flex z-10  justify-center  items-center bg-skin-fill  h-full w-full md:absolute md:h-52 md:w-52 top-10 -right-10 shadow-gray-50">
+            
+          <img className="h-full w-full rounded overflow-hidden" src={indigo} alt="club indigo"/>
           <div className="grid md:grid-cols-2 uppercase absolute md:-bottom-5 md:left-[350px] w-64 gap-4 opacity-80 md:opacity-100">
             <button type="submit" className="px-4 uppercase font-semibold  rounded-sm bg-skin-secondary text-skin-accent md:bg-skin-primary py-2 shadow-md ">
               more
@@ -54,9 +54,9 @@ const Card = () => {
               demo
             </button>
           </div>
-      
+          <div className="sm:hidden md:block overflow-hidden absolute inset-0  border-2 border-primary h-[13.2rem] w-52 my-2  bg-skin-fill  left-[10px] -z-10"/>
         </div>
-       
+    
       </div>
     </motion.section>
   );
