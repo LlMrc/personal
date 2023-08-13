@@ -7,7 +7,7 @@ import styles from "../styles";
 import dish6 from "../assets/2.png";
 import resto from "../assets/resto.jpg";
 import { motion } from "framer-motion";
-import { staggerContainer, zoomIn } from "../utils/motion";
+import { staggerContainer } from "../utils/motion";
 
 const Banner = () => {
   return (
