@@ -7,7 +7,7 @@ import Explorer from "../components/explorer";
 import WhatNew from "./whatnew";
 import Card from "../components/card";
 import Culture from "../components/culture";
-import MediaCard from "../components/visitguide";
+import VisitMediaCard from "../components/visitguide";
 import Desciption from "./desciption";
 import About from "./about";
 import Sevices from "./sevices";
@@ -22,10 +22,10 @@ const HomePage = () => {
   return (
     <>
       <LocomotiveScrollProvider options={options} containerRef={ref}>
-        <main data-scroll-container className="bg-skin-fill ov">
+        <main data-scroll-container className="bg-skin-fill block overflow-x-hidden">
           <LandingPage />
           <Card />
-          <MediaCard />
+          <VisitMediaCard />
           <Desciption />
           <Culture />
           <Explorer />
@@ -35,10 +35,6 @@ const HomePage = () => {
           <Sevices />
           <Testimonial /> 
            <FooterPage /> 
-           <FooterPage />
-        
-  
-           
         </main>
       </LocomotiveScrollProvider>
     </>

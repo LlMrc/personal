@@ -13,13 +13,13 @@ const Card = () => {
     whileInView="show"
     initial="hidden"
     viewport={{ once: false, amount: 0.25 }}
-      className={` ${styles.interWidth} flex flex-col md:flex-row-reverse md:p-6 relative mx-auto py-14 md:py-24 justify-end`}
+      className={` ${styles.interWidth} flex  flex-col md:flex-row-reverse md:px-10 mt-10 relative mx-auto justify-between  md:py-24 `}
       data-scroll-section
     >
       <div className="space-y-6  relative   md:w-[800px]">
         <div className="relative bg-skin-primary  md:max-w-4xl md:h-[300px]  h-[300px] mx-auto overflow-hidden  md:rounded-xl">
           <img
-            className="inset-0 h-full w-full  objecy-cover  opacity-30"
+            className="inset-0 h-full w-full  object-cover  opacity-30"
             src="https://i.pinimg.com/originals/bb/75/60/bb75607c4e519028c98d9747685aba58.jpg"
             alt="haiti jalouzi"
           />

@@ -9,7 +9,7 @@ import { fadeIn, staggerContainer } from "../utils/motion";
 export default function Explorer() {
   return (
     <>
-      <div data-scroll-section className=" py-20">
+      <div data-scroll-section className="  m-8">
         <motion.div
           variants={staggerContainer}
           initial="hidden"
@@ -19,11 +19,11 @@ export default function Explorer() {
         >
           <motion.div
             variants={fadeIn("up", "tween", 0.3, 1)}
-            className="text-xl md:w-[90%] flex flex-col items-center gap-2 m-10"
+            className="text-xl md:w-[90%] flex flex-col items-center gap-2 md:mx-2 "
           >
             <h4 className="font-bold text-center uppercase ">
-              {" "}
-              About cuisine{" "}
+
+              About cuisine
             </h4>
             <p className="">
               Haitian cuisine is a rich and flavorful culinary tradition that
@@ -42,7 +42,7 @@ export default function Explorer() {
             <img
               src={restaurent}
               alt="restaurent"
-              className="object-contain h-full w-full rounded-md"
+              className="object-contain h-full w-full  rounded-md"
             />
           </div>
         </motion.div>
@@ -52,7 +52,7 @@ export default function Explorer() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: false, amount: 0.25 }}
-          className={`${styles.interWidth} ${styles.yPaddings} py-20 gap-2 mx-auto flex items-center  flex-col md:flex-row`}
+          className={`${styles.interWidth} ${styles.yPaddings} py-20 gap-4 mx-auto flex items-center  flex-col-reverse md:flex-row`}
         >
           <div>
             <img
@@ -63,7 +63,7 @@ export default function Explorer() {
           </div>
           <motion.div
             variants={fadeIn("up", "tween", 0.3, 1)}
-            className="text-xl md:w-[90%] flex flex-col items-start gap-2 m-10"
+            className="text-xl md:w-[90%] flex flex-col items-start gap-2 md:mx-2"
           >
             <h4 className="font-bold  uppercase "> About Culture </h4>
             <p className="">

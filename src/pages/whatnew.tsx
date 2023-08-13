@@ -6,7 +6,7 @@ import { explorImg } from "../costant/grid";
 
 export default function WhatNew() {
   return (
-    <section className={`${styles.innerWidth} pb-24 bg-gradient-to-br to-succes  from-[#e6f7fc] `} data-scroll-section>
+    <section className={`${styles.innerWidth} pb-24 bg-gradient-to-br to-succes  from-fill `} data-scroll-section>
       <div
         className={`p-20 ${styles.flexCenter} `}
       >

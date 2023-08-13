@@ -34,6 +34,7 @@ export default {
         secondary: "var(--color-secondary)",
         primary: "var( --color-primary)",
         succes: "var(--color-succes)",
+        fill: "var(--color-background)",
       },
 
       textColor: {
