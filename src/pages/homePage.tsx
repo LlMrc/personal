@@ -1,6 +1,5 @@
 import "../App.css";
 
-import FooterPage from "./footer";
 import LandingPage from "./landing";
 
 import Explorer from "../components/explorer";

@@ -1,4 +1,3 @@
-import styles from "./styles";
 
 
 import   phone from "./assets/contactIcon/phone.png";

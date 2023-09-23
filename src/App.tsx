@@ -1,6 +1,6 @@
 import "./App.css";
 
-import { createBrowserRouter, createRoutesFromElements, Outlet, Route, RouterProvider, Routes} from "react-router-dom";
+import { createBrowserRouter, createRoutesFromElements, Outlet, Route, RouterProvider} from "react-router-dom";
 
 import HomePage from "./pages/homePage.tsx";
 
