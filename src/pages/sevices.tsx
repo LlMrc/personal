@@ -4,8 +4,8 @@ import { svgLogo } from '../costant/svglogo'
 
 const Sevices = () => {
   return (
-    <div data-scroll-section
-     className={` ${styles.paddings} relative   flex flex-col justify-between items-center gap-4 rounded mx-auto  `}
+    <div 
+     className={` ${styles.paddings} relative bg-white   flex flex-col justify-between items-center gap-4 rounded mx-auto  `}
     >
                    <div className='absolute mix-blend-multiply    filter blur-xl opacity-60 h-52 w-52 bottom-20 left-4 bg-pink-300 rounded-full'/>      
              <div className='absolute mix-blend-multiply  filter blur-xl opacity-60 h-52 w-52 -right-10 bg-blue-100 rounded-full'/>       

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const VisitGuide = () => {
   return (
-    <section data-scroll-section>
+    <section >
       <div className={`bg-gradient-to-br from-succes  to-[#e6f7fc] mx-auto  py-10 px-6 lg:px-36 lg:pt-12`}>
         <div className="text-lg text-center md:pt-20 md:pb-10">
           <h2 className="uppercase">Exploring Haiti's Rich Biodiversity</h2>

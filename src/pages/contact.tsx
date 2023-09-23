@@ -6,8 +6,8 @@ const ContactPage = () => {
   return (
     <>
 
-    <section className=" " data-scroll-section>
-      <div className="flex items-center p-10  justify-center  ">
+ 
+      <div className="flex items-center p-10  justify-center   ">
       <h3>"Please feel free to contact us via the form below or by phone."</h3>
       </div>
     
@@ -95,7 +95,7 @@ const ContactPage = () => {
         </section>
       </div>
  
-    </section>
+  
 
 
 

@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 const Culture = () => {
   return (
 <>
-      <section className="md:w-4/5 md:py-20 mx-auto"  data-scroll-section>
+      <section className="md:w-4/5 md:py-20 mx-auto">
         <section className="grid md:grid-cols-3  mx-auto w-full   md:gap-4 h-full">
           <motion.div
             variants={staggerContainer}
@@ -21,7 +21,7 @@ const Culture = () => {
             <TypingText title="Creole Arts" textStyles="text-center hover:text-skin-secondary" />
 
             <img
-              className="md:h-64 md:w-60  object-contain bg-slate-400 rounded"
+              className="md:h-64 md:w-60   bg-slate-400 rounded"
                src="https://i.pinimg.com/736x/8e/de/90/8ede90d7a714d24daeaaa7dde240abc1.jpg"
         
               alt="haitian culture"
@@ -53,7 +53,7 @@ const Culture = () => {
    
  
     </section>
-    <div className="md:py-24 w-full"  data-scroll-section>
+    <div className="md:py-24 w-full"  >
     <Banner />
     </div>
     </>

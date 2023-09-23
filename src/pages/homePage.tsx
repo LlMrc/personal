@@ -1,8 +1,8 @@
 import "../App.css";
-import { useRef } from "react";
+
 import FooterPage from "./footer";
 import LandingPage from "./landing";
-import { LocomotiveScrollProvider } from "react-locomotive-scroll";
+
 import Explorer from "../components/explorer";
 import WhatNew from "./whatnew";
 import Card from "../components/card";
@@ -15,14 +15,12 @@ import Testimonial from "./testimonial";
 import CallToAction from "../components/calltoaction";
 
 const HomePage = () => {
-  const ref = useRef(null);
-  const options = {
-    smooth: true,
-  };
+
+ 
   return (
     <>
-      <LocomotiveScrollProvider options={options} containerRef={ref}>
-        <main data-scroll-container className="bg-skin-fill block overflow-x-hidden">
+    
+        <main  className="bg-skin-fill block overflow-x-hidden">
           <LandingPage />
           <Card />
           <VisitMediaCard />
@@ -34,9 +32,9 @@ const HomePage = () => {
           <WhatNew />
           <Sevices />
           <Testimonial /> 
-           <FooterPage /> 
+       
         </main>
-      </LocomotiveScrollProvider>
+
     </>
   );
 };

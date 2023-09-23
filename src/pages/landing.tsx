@@ -3,7 +3,7 @@ import bg from "../assets/bg-image.jpg";
 import indigo from "../assets/gridcard/port.jpg";
 import trapical from "../assets/gridcard/royal.jpg";
 import logo from "../assets/logo.png";
-import NavBar from "../components/navbar";
+
 const bgStyle = {
   backgroundImage: `url(${bg})`,
   backgroundSize: "cover",
@@ -14,11 +14,11 @@ const LandingPage = () => {
     <section
       className="bg-fixed h-[100vh]  bg-no-repeat "
       style={bgStyle}
-      data-scroll-section
+     
     >
       <section className=" text-skin-fill font-bold h-[100vh]   bg-transparent -z-40 ">
         <div className="bg-gradient-to-r relative p-8 from-black h-full w-full">
-          <NavBar />
+        
 
           <div className="flex md:h-[34rem] lg:justify-between sm:justify-center md:w-4/5 py-20 mx-auto lg:flex-row flex-col lg:gap-4 gap-2 items-center   relative">
             <div className="lg:w-2/6 flex flex-col gap-2 justify-center items-center">
@@ -52,10 +52,7 @@ const LandingPage = () => {
 
             <div className="sm:hidden lg:block self-start relative lg:w-5/12 h-[20rem]">
               <div
-                data-scroll-section
-                data-scroll
-                data-scroll-direction="vertical"
-                data-scroll-speed="4"
+              
                 className="rounded-full absolute lg:bottom-24 lg:left-10 md:bottom-64 md:left-40 bottom-40 left-2   p-1 h-20 w-20 md:h-32 md:w-32 bg-slate-200 z-0"
               >
                 <div
@@ -65,10 +62,7 @@ const LandingPage = () => {
               </div>
 
               <div
-                data-scroll-section
-                data-scroll
-                data-scroll-direction="vertical"
-                data-scroll-speed="1"
+               
                 className="rounded-full flex items-center justify-center p-1 h-32 w-32 md:h-40 md:w-40 bg-slate-200  absolute lg:bottom-20 lg:left-32  md:bottom-56 md:left-[250px] bottom-36 left-52  z-20"
               >
                 <div
@@ -77,10 +71,7 @@ const LandingPage = () => {
                 />
               </div>
               <div
-                data-scroll-section
-                data-scroll
-                data-scroll-direction="vertical"
-                data-scroll-speed="-4"
+              
                 className="rounded-full flex items-center justify-center  p-1 h-40 w-40 md:h-64 md:w-64 bg-slate-200  absolute lg:bottom-6 lg:left-60  md:bottom-44 md:left-[360px] bottom-32 left-20 z-10"
               >
                 <div className=" bg-slate-800  rounded-full h-full w-full flex justify-center items-center text-center relative">
@@ -103,10 +94,7 @@ const LandingPage = () => {
           <div className="custom-shape-divider-bottom-1686527798">
             <div className="h-[2rem]  relative">
               <div
-                data-scroll-section
-                data-scroll
-                data-scroll-direction="vertical"
-                data-scroll-speed="-4"
+               
                 className="absolute text-slate-400 left-[662px] -bottom-10 h-10 w-10"
               >
                 <svg

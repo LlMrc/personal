@@ -45,15 +45,19 @@ const CallToAction = () => {
     }
   }, [animation1, inView]);
   return (
+    <div className={`bg-white ${styles.xPaddings} `}>
+     <p className=" w-[50%] py-20 mx-auto">
+     Get ready to embark on the adventure of a lifetime! Let us take you to distant horizons, from idyllic beaches to majestic peaks, historic cities to mysterious deserts. Our team of travel experts is ready to turn your dreams into reality. Explore our selection of exotic destinations, discover our exclusive offers, and book your next getaway now. Adventure awaits, it's time to go! Click here to start your journey into the unknown.
+     </p>
     <motion.div
       data-scroll-section
       variants={staggerContainer}
       whileInView="show"
       initial="hidden"
       viewport={{ once: false, amount: 0.25 }}
-      className={`flex flex-col justify-end items-center bg-skin-succes ${styles.xPaddings} mx-auto md:flex-row py-20`}
+      className={`flex flex-col justify-end items-center  md:flex-row py-24`}
     >
-      <motion.div variants={slideIn("left", "spring", 0.5, 1)} className=" ">
+          <motion.div variants={slideIn("left", "spring", 0.5, 1)} className=" ">
         <img
           src={child}
           alt="restaurent"
@@ -102,6 +106,7 @@ const CallToAction = () => {
         </div>
       </div>
     </motion.div>
+    </div>
   );
 };
 

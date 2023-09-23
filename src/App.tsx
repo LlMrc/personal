@@ -1,27 +1,42 @@
 import "./App.css";
-import AboutPage from "./pages/testimonial";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import HomePage from "./pages/homePage";
+import { createBrowserRouter, createRoutesFromElements, Outlet, Route, RouterProvider, Routes} from "react-router-dom";
 
-import NotFound from "./pages/notFound";
-import ContactPage from "./pages/contact";
+import HomePage from "./pages/homePage.tsx";
+
+
+import Nav from "./navbar";
+import Contact from "./contact.tsx";
+import Services from "./service.tsx";
+import FooterPage from "./pages/footer.tsx";
 
 function App() {
+ const router =  createBrowserRouter(
+    createRoutesFromElements(
+<Route path="/" element={<Root/>}>
+<Route index element={<HomePage/>}/>
+<Route path="/contact" element={<Contact/>}/>
+<Route path="/service" element={<Services/>}/>
+</Route>
+
+    )
+ )
   return (
     <>
-      <BrowserRouter>
-        <Routes>
-          <Route index element={<HomePage />} />
-          <Route path="/home" element={<HomePage />} />
-          {/* <Route path="/hero" element={<HeroPage />} /> */}
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
+    <RouterProvider router={router}/>
     </>
   );
+}
+
+const Root = () => {
+
+  return <>
+  <Nav/>
+  <div>
+    <Outlet/>
+    <FooterPage /> 
+  </div>
+  </>
 }
 
 export default App;

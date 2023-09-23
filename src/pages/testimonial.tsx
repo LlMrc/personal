@@ -7,8 +7,8 @@ import a3 from "../assets/45.jpg";
 
 const Testimonial = () => {
   return (
-    <section data-scroll-section>
-      <div className="bg-[#ebedf5]  md:flex justify-center items-center flex-col py-20 mx-auto">
+  
+      <div className="bg-white  md:flex justify-center items-center flex-col py-20 mx-auto">
         <TestimonialLeft
           avatar={a3}
           message={
@@ -40,7 +40,7 @@ const Testimonial = () => {
           }
         />
       </div>
-    </section>
+ 
   );
 };
 

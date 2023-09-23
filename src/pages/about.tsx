@@ -11,10 +11,10 @@ const About = () => {
       whileInView="show"
       initial="hidden"
       viewport={{ once: false, amount: 0.25 }}
-      className={`relative bg-skin-succes flex flex-col lg:gap-10 
+      className={`relative bg-skin-succes flex flex-col lg:gap-10 md:mt-20
        gap-2 md:gap-4 mx-auto rounded-sm h-[20rem]
        overflow-hidden text-white text-xl ${styles.paddings}`}
-      data-scroll-section
+
     >
       <img
         src={bg}

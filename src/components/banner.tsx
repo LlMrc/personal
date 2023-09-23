@@ -24,50 +24,38 @@ const Banner = () => {
       <div className=" m-2 flex flex-col bg-slate-200 rounded md:flex-row ">
         <section className=" h-52 items-center flex gap-2 overflow-x-scroll md:w-3/4  p-2 justify-around">
           <img
-            data-scroll
-            data-scroll-direction="horizontal"
-            data-scroll-speed="4"
+       
             className="lg:h-40 lg:w-40 h-28 w-28 m-2 rounded-full bg-slate-400"
             src={dish4}
             alt="haitian food"
           />
           <img
-            data-scroll
-            data-scroll-direction="horizontal"
-            data-scroll-speed="4"
+            
             className="lg:h-40 lg:w-40 h-28 w-28 m-2 rounded-full bg-slate-400"
             src={dish5}
             alt="haitian food"
           />
           <img
-            data-scroll
-            data-scroll-direction="horizontal"
-            data-scroll-speed="4"
+         
             className="lg:h-40 lg:w-40 h-28 w-28 m-2 rounded-full bg-slate-400"
             src={dish1}
             alt="haitian food"
           />
 
           <img
-            data-scroll
-            data-scroll-direction="horizontal"
-            data-scroll-speed="4"
+      
             className="lg:h-40 lg:w-40 h-28 w-28 m-2 rounded-full bg-slate-400 "
             src={dish6}
             alt="haitian food"
           />
           <img
-            data-scroll
-            data-scroll-direction="horizontal"
-            data-scroll-speed="4"
+           
             className="lg:h-40 lg:w-40 h-28 w-28 m-2 rounded-full bg-slate-400"
             src={dish2}
             alt="haitian food"
           />
           <img
-            data-scroll
-            data-scroll-direction="horizontal"
-            data-scroll-speed="4"
+        
             className="lg:h-40 lg:w-40 h-28 w-28 m-2 rounded-full bg-slate-400"
             src={dish3}
             alt="haitian food"

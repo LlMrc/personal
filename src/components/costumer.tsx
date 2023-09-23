@@ -8,7 +8,7 @@ const bgStyle = {
 
 const CustomerService = () => {
   return (
-    <section className="bg-shad-color   py-10 md:px-4" data-scroll-section>
+    <section className="bg-shad-color   py-10 md:px-4" >
       <div className="flex flex-col md:flex-row h-64 w-full  ">
         <div
           className=" w-full h-full justify-end flex rounded-l-md"

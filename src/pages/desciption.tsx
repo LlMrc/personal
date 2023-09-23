@@ -7,7 +7,7 @@ import { fadeIn, staggerContainer } from '../utils/motion'
 export default function Desciption() {
 
   return (
-    <section data-scroll-section className={`${styles.paddings}  pt-24`}>
+    <section  className={`${styles.paddings}  pt-24`}>
       
           < motion.div
           variants={staggerContainer}
