@@ -9,18 +9,19 @@ import Nav from "./navbar";
 import Contact from "./contact.tsx";
 import Services from "./service.tsx";
 import FooterPage from "./pages/footer.tsx";
+import About from "./about.tsx";
 
 function App() {
- const router =  createBrowserRouter(
-    createRoutesFromElements(
-<Route path="/" element={<Root/>}>
-<Route index element={<HomePage/>}/>
-<Route path="/contact" element={<Contact/>}/>
-<Route path="/service" element={<Services/>}/>
-</Route>
-
-    )
- )
+ const router = createBrowserRouter(
+   createRoutesFromElements(
+     <Route path="/" element={<Root />}>
+       <Route index element={<HomePage />} />
+       <Route path="/contact" element={<Contact />} />
+       <Route path="/service" element={<Services />} />
+       <Route path="/about" element={<About />} />
+     </Route>
+   )
+ );
   return (
     <>
     <RouterProvider router={router}/>

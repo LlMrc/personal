@@ -1,19 +1,15 @@
 import { motion } from "framer-motion";
-import bg from "../assets/bg-image.jpg";
+
 import indigo from "../assets/gridcard/port.jpg";
 import trapical from "../assets/gridcard/royal.jpg";
 import logo from "../assets/logo.png";
 
-const bgStyle = {
-  backgroundImage: `url(${bg})`,
-  backgroundSize: "cover",
-  backgroundPosition: "center",
-};
+
 const LandingPage = () => {
   return (
     <section
-      className="bg-fixed h-[100vh]  bg-no-repeat "
-      style={bgStyle}
+      className="bg-fixed h-[100vh]  bg-no-repeat bg-hero bg-center bg-cover"
+ 
      
     >
       <section className=" text-skin-fill font-bold h-[100vh]   bg-transparent -z-40 ">

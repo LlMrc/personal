@@ -19,7 +19,7 @@ const HomePage = () => {
   return (
     <>
     
-        <main  className="bg-skin-fill block overflow-x-hidden">
+        <main  className="bg-skin-fill block overflow-x-hidden w-full">
           <LandingPage />
           <Card />
           <VisitMediaCard />

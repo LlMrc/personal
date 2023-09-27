@@ -3,6 +3,8 @@
 import   phone from "./assets/contactIcon/phone.png";
 import email from "./assets/contactIcon/email.png"
 import location from "./assets/contactIcon/location.png"
+import MapLocation from "./components/map";
+import styles from "./styles";
 
 type InputProps = {
   type: string,
@@ -22,8 +24,8 @@ type TextAreaProps  = {
 const Contact = () => {
   return (
     <>
-      <section className={`bg-white py-20 lg:px-56 lg:py-[120px] overflow-hidden relative mx-auto z-10 `}>
-        <div className="container">
+      <section className={`bg-white overflow-hidden relative mx-auto z-10 `}>
+        <div className={`container ${styles.flexCenter}  ${styles.yPaddings} `}>
           <div className="flex flex-wrap -mx-4 lg:justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
               <div className="mb-12 max-w-[570px] lg:mb-0">
@@ -39,8 +41,9 @@ const Contact = () => {
                   enim adiqua minim veniam quis nostrud exercitation ullamco
                 </p>
                 <div className="mb-8 flex w-full max-w-[370px]">
-                  <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-accent shadow-md bg-opacity-5 text-primary sm:h-[70px] sm:max-w-[70px]">
-                 <img src={location} alt="location" className="text-white"/>
+                  <div className=" transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30 mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-accent shadow-md bg-opacity-5 text-primary sm:h-[70px] sm:max-w-[70px]">
+                    <img src={location} alt="location" className="text-white" />
+                    
                   </div>
                   <div className="w-full">
                     <h4 className="mb-1 text-xl font-bold text-dark">
@@ -51,9 +54,13 @@ const Contact = () => {
                     </p>
                   </div>
                 </div>
-                <div className="mb-8 flex w-full max-w-[370px]">
-                  <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-accent shadow-md bg-opacity-5 text-primary sm:h-[70px] sm:max-w-[70px]">
-                  <img src={phone} alt="location" className="text-white p-2"/>
+                <div className="mb-8 flex w-full max-w-[370px] ">
+                  <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-accent shadow-md bg-opacity-5 text-primary sm:h-[70px] sm:max-w-[70px]  transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30">
+                    <img
+                      src={phone}
+                      alt="location"
+                      className="text-white p-2"
+                    />
                   </div>
                   <div className="w-full">
                     <h4 className="mb-1 text-xl font-bold text-dark">
@@ -65,8 +72,12 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="mb-8 flex w-full max-w-[370px]">
-                  <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded shadow-md bg-accent bg-opacity-5 text-primary sm:h-[70px] sm:max-w-[70px]">
-                  <img src={email} alt="location" className="text-white p-2"/>
+                  <div className="transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30 mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded shadow-md bg-accent bg-opacity-5 text-primary sm:h-[70px] sm:max-w-[70px]">
+                    <img
+                      src={email}
+                      alt="location"
+                      className="text-white p-2"
+                    />
                   </div>
                   <div className="w-full">
                     <h4 className="mb-1 text-xl font-bold text-dark">
@@ -98,7 +109,7 @@ const Contact = () => {
                     placeholder="Your Phone"
                   />
                   <ContactTextArea
-                    row= {6}
+                    row={6}
                     placeholder="Your Message"
                     name="details"
                     defaultValue=""
@@ -924,6 +935,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        <MapLocation />
       </section>
     </>
   );

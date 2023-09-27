@@ -4,22 +4,22 @@ export default {
   theme: {
     extend: {
       animation: {
-        blob: "blob 7s infinite"
+        blob: "blob 7s infinite",
       },
       keyframes: {
         blob: {
-          "0%" : {
+          "0%": {
             transform: "translate(0px, 0px) scale(1)",
           },
-          "33%" : {
-            transform:  "translate(30px, -50px) scale(1.1)",
+          "33%": {
+            transform: "translate(30px, -50px) scale(1.1)",
           },
 
-          "66%" : {
+          "66%": {
             transform: "translate(20px, -20px) scale(0.9)",
           },
 
-          "100%" : {
+          "100%": {
             transform: "translate(0px, 0px) scale(1)",
           },
         },
@@ -35,6 +35,12 @@ export default {
         primary: "var( --color-primary)",
         succes: "var(--color-succes)",
         fill: "var(--color-background)",
+      },
+      backgroundImage: {
+        hero: "url('./src/assets/bg-image.jpg')",
+        about: "url('./src/assets/about.jpg')",
+       wave: "url('./src/assets/svg/wave.svg')"
+       
       },
 
       textColor: {
