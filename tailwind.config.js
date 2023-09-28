@@ -26,11 +26,9 @@ export default {
       },
 
       backgroundImage: {
-        'gradienttext':
+        gradienttext:
           "linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%)",
-       'hero': "url('./src/assets/bg-image.jpg')",
-       'about': "url('./src/assets/about.jpg')",
-        'wave': "url('./src/assets/svg/wave.svg')",
+     
       },
       colors: {
         accent: "var(--color-accent)",
